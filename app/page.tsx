@@ -1,4 +1,7 @@
-/** Add your relevant code here for the issue to reproduce */
+import { unbounded } from "../utils/fonts"
+
 export default function Home() {
-  return null
+  return (
+    <h1 className={unbounded.className}>TEST TITLE</h1>
+  )
 }
